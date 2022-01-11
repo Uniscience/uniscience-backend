@@ -8,8 +8,6 @@ const PORT = process.env.PORT || 9001;
 const baseUrl = 'https://uniscience.vtexcommercestable.com.br'
 const APPKEY = process.env.APPKEY
 const APPTOKEN = process.env.APPTOKEN
-// const APPKEY = 'vtexappkey-uniscience-NIOTWN';
-// const APPTOKEN = 'CHASOAVZVCJSZHIIQIKRYDJFLTYVIEAHXGHACTXLGOSEANPPPFWVZSQZYUGVBZRRBCVTAIGXKZLJLEEXEJFCHFHEPHCHMCKHXBCYSVOHZYKAHHOTQJQSTOJWUQDSFYLI';
 
 app.use(cors())
 app.use(express.json())
