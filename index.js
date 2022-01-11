@@ -5,9 +5,9 @@ const axios = require('axios').default
 const app = express()
 
 const PORT = process.env.PORT || 9001;
-const baseUrl = ''
-const APPKEY = '';
-const APPTOKEN = '';
+const baseUrl = 'https://uniscience.vtexcommercestable.com.br'
+const APPKEY = 'vtexappkey-uniscience-NIOTWN';
+const APPTOKEN = 'CHASOAVZVCJSZHIIQIKRYDJFLTYVIEAHXGHACTXLGOSEANPPPFWVZSQZYUGVBZRRBCVTAIGXKZLJLEEXEJFCHFHEPHCHMCKHXBCYSVOHZYKAHHOTQJQSTOJWUQDSFYLI';
 
 app.use(cors())
 app.use(express.json())
